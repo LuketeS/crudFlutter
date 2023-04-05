@@ -27,7 +27,7 @@ Widget build(BuildContext context) {
 const users = {...DUMMY_USERS};
 return Scaffold(
 appBar: AppBar(
-title: Text('Lista de usuários'),
+title: Text('Lista de usuários do Lukete'),
 ),
 body: ListView.builder(
 itemCount: users.length,
